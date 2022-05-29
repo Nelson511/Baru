@@ -48,7 +48,7 @@ global.sig = 'https://instagram.com/darmapryanda?igshid=YmMyMTA2M2Y='
 global.sgh = 'tiktok.com/@fangzjb'
 global.sgc = 'https://chat.whatsapp.com/IAtQHCRjPzX2A3qHi9VlgQ'
 global.sdc = 'https://discord.gg/rW4mRNFssd'
-global.snh = 'https://nhentai.net/g/365296/'
+global.snh = 'https://chat.whatsapp.com/IAtQHCRjPzX2A3qHi9VlgQ'
 
 /*============== PAYMENT ==============*/
 global.pdana = '088215689772'
