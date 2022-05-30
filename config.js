@@ -120,7 +120,7 @@ global.wm2 = '꒷︶꒷꒥꒷ ‧₊˚ ꒰ฅ˘Fangz BOT˘ฅ ꒱ ‧₊˚꒷︶
 global.wm3 = '⫹⫺ Fangz 𝗕𝗢𝗧 | By Fangz'
 global.botdate = `⫹⫺ 𝗗𝗮𝘁𝗲: ${week} ${date}`
 global.bottime = `𝗧 𝗜 𝗠 𝗘 : ${wktuwib}`
-global.titlebot = '🌱 ┊ 𝗥𝗣𝗚 Whatsapp ʙᴏᴛ'
+global.titlebot = '⫹⫺ FangzBOTZ ┊ By : Fangz'
 global.author = global.wm
 
 
