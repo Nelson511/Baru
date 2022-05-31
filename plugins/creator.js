@@ -19,14 +19,14 @@ let handler  = async (m, { conn, command, args, usedPrefix, DevMode }) => {
 
 //------------ BIO
 let ppown = await conn.profilePictureUrl(nomorown + '@s.whatsapp.net', 'image').catch(_ => hwaifu[1]) 
-let teksbio = `${htki} *𝄜 BIODATA* ${htka}
+let teksbio = `${htki} *BIODATA* ${htka}
 *ɴᴀᴍᴇ:* Fangz
 *ᴀɢᴇ:* 15ᵗʰ
 *ᴄʟᴀss:* 9
 *sᴛᴀᴛᴜs:* single 
 
 *ʙɪʀᴛʜᴅᴀʏ:* 25 Aug 2006
-*ᴀᴅᴅʀᴇss:* Indonesia, jawa tengah, Yogyakarta
+*ᴀᴅᴅʀᴇss:* Indonesia, jawa Tengah, Yogyakarta
 
 *- - sᴋɪʟʟs: - -* 
 > JavaScript [89.7%]
@@ -46,7 +46,7 @@ const sections = [
 	rows: [
 	    {title: "📱 • Nomor", rowId: ".owner nomor"},
 	{title: "🎨 • Biodata", rowId: ".owner bio"},
-	{title: "🌎 • Script", rowId: ".sc"},
+	{title: "🌎 • Fangz", rowId: "Tes"},
 	]
     },{
 	title: `${htjava} SUPPORT ME –––––––·•`,
@@ -62,7 +62,7 @@ const listMessage = {
   text: teks,
   footer: null,
   title: `${htki} *OWNER* ${htka}`,
-  buttonText: "❖ Click Here ❖",
+  buttonText: "Click Here !",
   sections
 }
 
@@ -74,7 +74,7 @@ const listMessage = {
           conn.reply(m.chat, teksnomor, m, { contextInfo: { mentionedJid: [nowner] }})
             break
             case 'bio':
-          conn.sendHydrated(m.chat, teksbio, wm, ppown, "wa.me/" + nomorown, "💬 ᴄʜᴀᴛs", null,null, [["⫹⫺ ᴅᴏɴᴀsɪ", '.donasi'], [null, null],[null,null]], m)
+          conn.sendHydrated(m.chat, teksbio, wm, ppown, "wa.me/" + nomorown, "💬 ᴄʜᴀᴛs", null,null, [["ᴅᴏɴᴀsɪ", '.donasi'], [null, null],[null,null]], m)
             break
             
           default:
